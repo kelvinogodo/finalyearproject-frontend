@@ -5,7 +5,7 @@ import StreamViewer from "./components/StreamViewer";
 import MotionAlert from "./components/MotionAlert";
 import TimeControlForm from "./components/TimeControlForm";
 
-const socket = io("http://localhost:5000"); // connect to backend
+const socket = io("https://finalyearproject-backend-8yev.onrender.com"); // connect to backend
 
 export default function App() {
   const [streamIP, setStreamIP] = useState(null);
